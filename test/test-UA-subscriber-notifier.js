@@ -114,7 +114,7 @@ module.exports = {
 
         if (sendFinalNotify)
         {
-          notifier.terminate(WEATHER_REPORT);
+          notifier.terminate(WEATHER_REPORT, 'timeout');
         }
       });
 
